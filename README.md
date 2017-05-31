@@ -160,7 +160,7 @@ hello tom
 $ hello --name tom
 hello tom
 ```
-argv 对象有一个下划线（_）属性，可以获取非连词线开头的参数。
+argv 对象有一个下划线(_)属性，可以获取非连词线开头的参数。
 ```
 #!/usr/bin/env node
 var argv = require('yargs').argv;

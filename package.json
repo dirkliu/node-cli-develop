@@ -1,6 +1,12 @@
 {
-	"name":"hello",
-	"bin":{
-		"hello":"./hello"
-	}
+  "name": "hello",
+  "bin": {
+    "hello": "./bin/hello"
+  },
+  "scripts": {
+    "test": "ls -al"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.7"
+  }
 }
